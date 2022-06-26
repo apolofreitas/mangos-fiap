@@ -7,8 +7,8 @@ import { SignIn } from "~/screens/SignIn";
 export const Router: FunctionComponent = () => {
   return (
     <Routes>
-      <Route index element={<Home />} />
-      <Route path="login" element={<SignIn />} />
+      <Route index element={<SignIn />} />
+      <Route path="/home" element={<Home />} />
     </Routes>
   );
 };

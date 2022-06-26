@@ -1,5 +1,6 @@
+import { Typography } from "@mui/material";
 import { FunctionComponent } from "react";
 
 export const Home: FunctionComponent = () => {
-  return <h1>home</h1>;
+  return <Typography variant="h1">home</Typography>;
 };
